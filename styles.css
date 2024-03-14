@@ -28,7 +28,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 787px ;
+        height: 100% ;
         width: 100%;
     }
 
@@ -42,12 +42,12 @@
     }
 
     .gradient-overlay-deals {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background: linear-gradient(to top, rgba(5, 2, 17, 0.95) 25%, transparent);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to top, rgba(5, 2, 17, 0.95) 25%, transparent);
     }
 
     .gradient-overlay-benefits {
@@ -60,15 +60,15 @@
         }
     
     .image-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 25px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
     }
     
     .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .box-categories{
