@@ -1,5 +1,4 @@
 @import url('https://cdn.tailwindcss.com');
-@import 'tailwind.config.js';
 
 /* Gaya kustom atau utility classes tambahan */
 @layer utilities {
@@ -13,6 +12,11 @@
         padding: 12px 24px; 
         border-radius: 50px;
         font-weight: 600;
+        transition: 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-dark:hover {
+        box-shadow: 0px 15px 15px 0px rgba(50, 52, 55, 0.8);
     }
 
     .btn-orange {
@@ -21,6 +25,11 @@
         padding: 12px 24px; 
         border-radius: 50px; 
         font-weight: 600;
+        transition: 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-orange:hover {
+        box-shadow: 0px 15px 15px 0px rgba(255, 147, 87, 0.8);
     }
 
     .hero-image{
